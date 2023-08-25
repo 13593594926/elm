@@ -16,6 +16,6 @@ jobs:
           node-version: "10.x"
 
       - name: Build project
-        run: ls 
+        run: npm install 
         # && npm install && npm run build
      
