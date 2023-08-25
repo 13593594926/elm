@@ -1,0 +1,15 @@
+name: GitHub Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build project
+        run: npm && npm run build
+     
