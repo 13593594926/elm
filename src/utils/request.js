@@ -1,6 +1,6 @@
 import axios from 'axios'
 const Server = axios.create({
-    baseURL: 'http://elm.cangdu.org',
+    baseURL: 'https://elm.cangdu.org',
     timeout: 10000,
     // withCredentials:true,
 })
